@@ -1,0 +1,25 @@
+.tab2{
+    display: none;
+}
+
+/* for the Next button */
+#next{
+    margin-left: 50%;
+}
+
+
+/* for the submit button */
+#submit{
+    float: right;
+}
+
+body{
+    background-image:linear-gradient(#6796b6, white, #6796b6);
+}
+
+/* for the brown line below the tabs */
+.row{
+    border-bottom: 5px solid rgb(151, 127, 127);
+
+}
+

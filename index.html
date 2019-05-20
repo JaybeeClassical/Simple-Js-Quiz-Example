@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron" style="text-align:center; ">
+            <h1>Welcome To the Quick Javascript Quiz<i class="fa fa-cog fa-spin"></i></h1>
+            <p class="lead">... Little accessment to test your JS Skill in a <i class="fas fa-camera"></i></p>
+        </div>
+        <form class="Form-group" role="form">
+            <section class="tab1" id="tab1">
+                <div class="row col-lg-12">
+                    <div class="col-lg-3">
+                        <p>1. How do you include Javascript file</p>
+                        <input type="checkbox" value="script" name="ques1">Using script tag <br>
+                        <input type="checkbox" value="script" name="ques1">Using Sript tag<br>
+                        <input type="checkbox" value="script" name="ques1">Using <Html><br>
+                        <input type="checkbox" value="script" name="ques1">Using Javascript
+                    </div>
+                    <br>
+
+                    <div class="col-lg-3">
+                        <p>2. How do you display Javascript on the webpage</p>
+                        <input type="checkbox" value="Using alert('');" name="ques2">Using console.log()<br>
+                        <input type="checkbox" value="NaN" name="ques2">Using alert('');<br>
+                        <input type="checkbox" value="NaN" name="ques2">Using print<br>
+                        <input type="checkbox" value="NaN" name="ques2"> Using echo
+                    </div>
+
+                    <div class="col-lg-3">
+                        <p>3. How do you change the value of html text using Javascript</p>
+                        <input type="checkbox" value="script" name="ques1">ReplaceText.text<br>
+                        <input type="checkbox" value="sript" name="ques1">getElementById("").change<br>
+                        <input type="checkbox" value="sript" name="ques1">getElementById("").innerHTML<br>
+                        <input type="checkbox" value="sript" name="ques1"> all of the above
+                    </div>
+
+                    <div class="col-lg-3">
+                        <p>4. is the ";" a most in the recent Javascript Programming </p>
+                        <input type="checkbox" value="script" name="ques4">yes<br>
+                        <input type="checkbox" value="sript" name="ques4">No<br>
+                        <input type="checkbox" value="sript" name="ques4">Not really<br>
+                        <input type="checkbox" value="sript" name="ques4">I don't Know
+                    </div>
+                </div>
+            </section>
+            <br><br>
+            <button id="next" class="btn btn-primary" onclick="next();"> <i class="fas fa-angle-double-right"></i>
+                Next</button>
+
+            <section class="tab2" id="tab2">
+                <div class="row col-lg-12">
+                    <div class="col-lg-3">
+                        <p>5. A variable that is not assigned any value is given what primitive type in Javascript</p>
+                        <input type="checkbox" value="script" required>Null<br>
+                        <input type="checkbox" value="sript" required>Undefined<br>
+                        <input type="checkbox" value="sript" required>Boolean<br>
+                        <input type="checkbox" value="sript" required> String
+                    </div>
+
+                    <div class="col-lg-3">
+                        <p>6. Which of these is not a Javascript framework</p>
+                        <input type="checkbox" value="script" required>React<br>
+                        <input type="checkbox" value="sript" required>Venilla<br>
+                        <input type="checkbox" value="sript" required>Vue<br>
+                        <input type="checkbox" value="sript" required> Angullar
+                    </div>
+
+                    <div class="col-lg-3">
+                        <p>7. Is Javascript from Java Programming Language </p>
+                        <input type="checkbox" value="script" required>Yes<br>
+                        <input type="checkbox" value="script" required>No<br>
+                        <input type="checkbox" value="script" required>Not really<br>
+                        <input type="checkbox" value="script" required> I heard
+                    </div>
+
+                    <div class="col-lg-3">
+                        <p>8. What primitive type returns ture/false </p>
+                        <input type="checkbox" value="script" required>String<br>
+                        <input type="checkbox" value="sript" required>Boolean<br>
+                        <input type="checkbox" value="sript" required>True<br>
+                        <input type="checkbox" value="sript" required> Undefined
+                    </div>
+                </div>
+
+                <br><br>
+                <button class="btn btn-primary" onclick="previous();"><i
+                        class="fas fa-angle-double-left"></i>previous</button>
+                <button id="submit" class="btn btn-primary" onclick="submit();"><i class="fa fa-paper-plane"></i>
+                    Submit</button>
+            </section>
+        </form>
+    </div>
+
+    <script src="time.js"></script>
+</body>
+
+</html>
