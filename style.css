@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 .tab2{
     display: none;
 }
