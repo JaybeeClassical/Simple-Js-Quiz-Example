@@ -14,6 +14,7 @@ previous.addEventListener('click', function () {
     document.getElementById('tab2').style.display = 'none';
 })
 
+// handles the submit button
 
 
 

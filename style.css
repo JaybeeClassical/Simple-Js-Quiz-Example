@@ -26,3 +26,10 @@ body{
 
 }
 
+.footer{
+    background-color: #00151f;
+    color: white;
+    width: 100vw;
+    margin-top: 200px;
+    height: 10vh;
+}

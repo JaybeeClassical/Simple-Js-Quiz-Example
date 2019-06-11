@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="darkmode.css">
 </head>
 
 <body>
@@ -19,7 +20,10 @@
         <div class="jumbotron" style="text-align:center; ">
             <h1>Welcome To the Quick Javascript Quiz<i class="fa fa-cog fa-spin"></i></h1>
             <p class="lead">... Little accessment to test your JS Skill in a <i class="fas fa-camera"></i></p>
+            <!--here goes the toggle button section-->
+            <div class="toggle"></div>
         </div>
+
         <form class="Form-group" role="form">
             <section class="tab1" id="tab1">
                 <div class="row col-lg-12">
@@ -103,8 +107,13 @@
             </section>
         </form>
     </div>
+    <div class="footer">
+        &COPY; 2019, designed by Jude Obiejesi
+    </div>
 
     <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="darkmode.js"></script>
 </body>
 
 </html>
