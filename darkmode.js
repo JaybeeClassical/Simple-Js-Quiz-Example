@@ -3,5 +3,6 @@ $(document).ready(function () {
         $('.toggle').toggleClass('active')
         $('body').toggleClass('night')
         $('.footer').toggleClass('nit')
+        $('.jumbotron').toggleClass('dark')
     })
 })

@@ -16,6 +16,10 @@ body.night
     color:#00151f;
 }
 
+.jumbotron.dark{    
+    background: #0c2531;
+}
+
 .toggle
 {
     position: absolute;
